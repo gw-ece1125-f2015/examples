@@ -1,3 +1,3 @@
 # examples
-Example code written by instructor and TAs.
+Example code written by the instructor and TAs.
 
