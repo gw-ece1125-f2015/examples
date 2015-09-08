@@ -10,7 +10,7 @@ int my_function(){
 
 int main(){
     printf("a = %d\n", a);
-    a = 20;
+    a = 30;
     my_function();
     if(a>0){
         int a = -10;
