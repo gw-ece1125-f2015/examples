@@ -7,7 +7,7 @@ int main(){
     FILE *f = fopen("test.txt", "r");
     
     while(fscanf(f,"%d", &my_var1) == 1){
-        printf("%d\n", my_var2);
+        printf("%d\n", my_var1);
     }
     fclose(f);
     return 0;
