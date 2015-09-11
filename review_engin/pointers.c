@@ -13,7 +13,7 @@ int main(){
     int a = 10, b = 20;
     int* p = &a;
     
-    p[5] = 10;
+    p[100000] = 10; //!!!
     
     int size = 10;
     p = malloc(size * sizeof(int));
@@ -30,7 +30,7 @@ int main(){
     
     subtract_one(p, size);
     
-    for(i = 0 ; i < size ; i++){
+    for(i = 0 ; i <= size ; i++){ //!!!
         printf("%d\n", p[i]);
     }
     
